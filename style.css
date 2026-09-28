@@ -1,0 +1,45 @@
+body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(13, 48, 164)
+}
+
+input {
+    outline: none;
+    border: 1px solid rgba(8, 38, 139, 0.26);
+    border-radius: 6px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+label {
+    color: rgb(8, 45, 164)
+}
+
+.button {
+    background-color: rgb(13, 48, 164);
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.red_button {
+    background-color: rgb(164, 13, 13);
+}
+
+table tr th {
+    padding-right: 10px;
+}
+
+table {
+    border: 1px solid rgba(129, 155, 238, 0.26);
+    padding: 10px 15px;
+
+}
